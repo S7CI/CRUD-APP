@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control de Ingreso UCI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Control de Ingreso UCI</h1>
+    <div class="form-container">
+      <div class="input-container">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="id" placeholder="ID Automatico">
+        <button class="btn-agregar" onclick="agregar()">Agregar</button>
+      </div>
+    </div>
+    <div class="table-container">
+      <h2 class="subtitle">Registros</h2>
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>ID</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-body">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

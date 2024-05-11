@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+  }
+  
+  .form-container {
+    border: 1px solid #006006;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #d0fffd;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .input-container button {
+    padding: 5px 10px;
+  }
+  
+  .btn-agregar {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    background-color: #d0fffd;
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #000000;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #004f80;
+    color: #ddd;
+  }
+  
+  table td button {
+    padding: 5px 10px;
+  }
+  
+  .btn-editar {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .btn-eliminar {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
